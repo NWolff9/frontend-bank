@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-image{
+    background-image: url("../public/ceu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-image2{
+    background-image: url("../public/tablet.jpeg");
+}
