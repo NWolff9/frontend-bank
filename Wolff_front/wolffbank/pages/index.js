@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Conteudo from '../components/Conteudo'
+import Marketing from '../components/Marketing'
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <Conteudo/>
+      <Marketing/>
+      
     </div>
   )
 }

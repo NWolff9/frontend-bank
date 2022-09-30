@@ -8,7 +8,7 @@ module.exports = {
     colors: {
       roxonav: '#bc98ff',
       roxonavaberta: '#dcbfff',
-      cinzaFundo: '#cbd5e1',
+      cinzaFundo: '#f2ebfb',
       
     }
   },
