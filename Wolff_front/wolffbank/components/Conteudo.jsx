@@ -25,26 +25,26 @@ export default function Conteudo() {
             ))}
           </dl>
         </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8 ">
           <img
             src="tabletmodelo.png"
            
-            className="rounded-lg bg-gray-100"
+            className="rounded-lg bg-gray-100 shadow-2xl"
           />
           <img
             src="https://todecacho.com.br/wp-content/uploads/2019/06/cortes-de-cabelo-masculino-crespo-1-1-630x420.jpg"
             alt="Top down view of walnut card tray with embedded magnets and card groove."
-            className="rounded-lg bg-gray-100"
+            className="rounded-lg bg-gray-100 shadow-2xl"
           />
           <img
             src="http://blog.riopae.com.br/wp-content/uploads/2019/08/Comodidade-que-os-aplicativos-trazem-para-as-pessoas.jpg"
             alt="Side of walnut card tray with card groove and recessed card area."
-            className="rounded-lg bg-gray-100"
+            className="rounded-lg bg-gray-100 shadow-2xl"
           />
           <img
             src="modelocartao.png"
             alt="Walnut card tray filled with cards and card angled in dedicated groove."
-            className="rounded-lg bg-gray-100 "
+            className="rounded-lg bg-gray-100 shadow-2xl"
           />
         </div>
       </div>
