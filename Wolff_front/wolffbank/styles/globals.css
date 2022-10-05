@@ -14,3 +14,9 @@
     background-size: cover;
     /* filter: blur(8px); */
 }
+
+.image-login{
+    background-image: url("../public/ceu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -9,7 +9,7 @@ module.exports = {
       roxonav: '#bc98ff',
       roxonavaberta: '#dcbfff',
       cinzaFundo: '#f2ebfb',
-      
+      footercor: '#161a1d',
     }
   },
   plugins: [],
