@@ -1,8 +1,10 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useRouter } from 'next/router'
 
 const Hero = () =>{
+    const router = useRouter()
     return (
     <div className="relative overflow-hidden custom-image">
       <div className="mx-auto max-w-7xl">
@@ -67,17 +69,11 @@ const Hero = () =>{
                 <span className="block text-indigo-600 xl:inline">O seu futuro em suas mãos</span>
               </h2>
               
-              {/* <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-               O banco, Wolff's Bank, foi criado com intuito de ajudar você com o seu futuro. Focado na experiência
-              do usuário, o Wolff's Bank é o banco ideal para organizar a sua vida financeira,
-              sendo um fator essencial para todos os que desejam crescer!
-              </p> */}
-
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg shadow-md"
+                    onClick={() => router.push("/login")}
+                    className="cursor-pointer flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg shadow-md"
                   >
                     Entrar
                   </a>

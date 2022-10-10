@@ -10,6 +10,9 @@ module.exports = {
       roxonavaberta: '#dcbfff',
       cinzaFundo: '#f2ebfb',
       footercor: '#161a1d',
+      corTexto: '#FFFF',
+      preto: '#212529',
+      transparente:'#ffffff00',
     }
   },
   plugins: [],

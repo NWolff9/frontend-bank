@@ -16,7 +16,7 @@
 }
 
 .image-login{
-    background-image: url("../public/ceu.jpg");
+    background-image: url("../public/loginFundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
