@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import lobologo from "../public/lobologo.png"
+import { useRouter } from 'next/router'
 
 const navigation = [
   { name: 'Wolffs Bank', href: '#', current: false },
@@ -17,6 +18,7 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
+  const router = useRouter()
   return (
     <Disclosure as="nav" className="bg-roxonav">
       {({ open }) => (
@@ -70,8 +72,8 @@ export default function Navbar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-7 w-7 rounded-full"
-                        src="https://smilingfaces.co.uk/wp-content/uploads/2019/06/C2C2B1dn.jpg"
-                        alt=""
+                        src="https://cdn.icon-icons.com/icons2/1141/PNG/512/1486395884-account_80606.png"
+                        
                       />
                     </Menu.Button>
                   </div>
@@ -88,8 +90,8 @@ export default function Navbar() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            onClick={() => router.push("/login")}
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 cursor-pointer')}
                           >
                             Entrar
                           </a>
@@ -102,6 +104,8 @@ export default function Navbar() {
               </div>
             </div>
           </div>
+
+          
 
           <Disclosure.Panel className="sm:hidden">
             <div className="bg-roxonavaberta space-y-1 px-2 pt-2 pb-3">

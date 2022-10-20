@@ -13,6 +13,7 @@ module.exports = {
       corTexto: '#FFFF',
       preto: '#212529',
       transparente:'#ffffff00',
+      loginCor:'#f1f5f9',
     }
   },
   plugins: [],
