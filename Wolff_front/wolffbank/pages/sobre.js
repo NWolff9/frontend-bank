@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Login from '../components/Vitrine/Login'
+import About from '../components/Vitrine/About'
 
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/lobologo.png" />
       </Head>
       
-      <Login/>
+      <About/>
      
     </div>
   )

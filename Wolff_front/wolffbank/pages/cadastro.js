@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Cadastro from '../components/Cadastro'
+import Cadastro from '../components/Vitrine/Cadastro'
 
 
 

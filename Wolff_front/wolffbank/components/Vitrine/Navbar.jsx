@@ -1,14 +1,13 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import lobologo from "../public/lobologo.png"
 import { useRouter } from 'next/router'
 
 const navigation = [
   { name: 'Wolffs Bank', href: '#', current: false },
-  { name: 'Sobre nós', href: '#', current: true },
-  { name: 'Serviços', href: '#', current: false },
-  { name: 'Contatos', href: '#', current: false },
+  { name: 'Sobre nós', href: '/sobre', current: true },
+  { name: 'Serviços', href: '/sobre', current: false },
+  { name: 'Contatos', href: '/sobre', current: false },
   
 ]
 
@@ -40,7 +39,7 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center custom-image1">
                   <img
                     className="w-8 h-8" 
-                    src="lobologo.png"
+                    src="/lobologo.png"
                   />
 
                 </div>
@@ -72,7 +71,7 @@ export default function Navbar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-7 w-7 rounded-full"
-                        src="https://cdn.icon-icons.com/icons2/1141/PNG/512/1486395884-account_80606.png"
+                        src="https://www.imagensempng.com.br/wp-content/uploads/2021/08/Icone-usuario-Png-1024x1024.png"
                         
                       />
                     </Menu.Button>

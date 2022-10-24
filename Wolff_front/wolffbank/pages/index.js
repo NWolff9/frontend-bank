@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Hero from '../components/Hero'
-import Navbar from '../components/Navbar'
-import Conteudo from '../components/Conteudo'
-import Marketing from '../components/Marketing'
-import Footer from '../components/Footer'
+import Hero from '../components/Vitrine/Hero'
+import Navbar from '../components/Vitrine/Navbar'
+import Conteudo from '../components/Vitrine/Conteudo'
+import Marketing from '../components/Vitrine/Marketing'
+import Footer from '../components/Vitrine/Footer'
 
 export default function Home() {
   return (
