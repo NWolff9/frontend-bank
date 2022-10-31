@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 
 const navigation = [
   { name: 'Wolffs Bank', href: '/', current: false },
-
   
 ]
 
@@ -14,7 +13,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Navbar() {
+export default function Inicio() {
   const router = useRouter()
   return (
     <Disclosure as="nav" className="bg-roxonav">
@@ -87,10 +86,10 @@ export default function Navbar() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            onClick={() => router.push("/login")}
+                            onClick={() => router.push("/dados")}
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 cursor-pointer')}
                           >
-                            Entrar
+                            Perfil
                           </a>
                         )}
                       </Menu.Item>

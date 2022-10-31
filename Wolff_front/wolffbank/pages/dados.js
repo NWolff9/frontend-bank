@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Inicio from '../components/Usuario/Inicio'
+import Dados from '../components/Usuario/Dados'
+import Sidebar from '../components/Usuario/Sidebar'
 
 export default function Home(){
     return(
@@ -10,13 +11,9 @@ export default function Home(){
         <link rel="icon" href="/lobologo.png" />
       </Head>
 
-      <Inicio/>
+      <Dados/>
 
-      
-
-
-
-      
+      <Sidebar/>
       </div>
     )
 }
