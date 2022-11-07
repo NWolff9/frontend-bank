@@ -71,7 +71,7 @@ export default function Navbar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-7 w-7 rounded-full"
-                        src="https://www.imagensempng.com.br/wp-content/uploads/2021/08/Icone-usuario-Png-1024x1024.png"
+                        src="/icone.png"
                         
                       />
                     </Menu.Button>
