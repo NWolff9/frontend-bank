@@ -10,14 +10,11 @@ export default function Dados() {
             
             </div>
           </div>
-          <div className="mt-5 md:col-span-2 md:mt-0">
+          <div className="mt-5 md:col-span-2 md:mt-1">
             <form action="#" method="POST">
-              <div className="shadow sm:overflow-hidden sm:rounded-md">
-                <div className="space-y-6 bg-white px-4 py-5 sm:p-6">
+              <div className="shadow sm:overflow-hidden sm:rounded-md bg-fundodados">
+                <div className="space-y-6 bg-white px-4 py-5 sm:p-6 ">
                   
-
-                 
-
                   <div>
                    
                     <div className="mt-1 flex items-center">
@@ -52,9 +49,7 @@ export default function Dados() {
       </div>
 
       <div className="hidden sm:block" aria-hidden="true">
-        <div className="py-5">
-          <div className="border-t border-gray-200" />
-        </div>
+        <div className="py-5"></div>
       </div>
 
       <div className="mt-10 sm:mt-0">
@@ -67,7 +62,7 @@ export default function Dados() {
           </div>
           <div className="mt-5 md:col-span-2 md:mt-0">
             <form action="#" method="POST">
-              <div className="overflow-hidden shadow sm:rounded-md">
+              <div className="overflow-hidden shadow sm:rounded-md bg-fundodados">
                 <div className="bg-white px-4 py-5 sm:p-6">
                   <div className="grid grid-cols-6 gap-6">
                     <div className="col-span-6 sm:col-span-3">
@@ -79,7 +74,7 @@ export default function Dados() {
                         name="first-name"
                         id="first-name"
                         autoComplete="given-name"
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="bg-cor mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       />
                     </div>
 
@@ -92,7 +87,7 @@ export default function Dados() {
                         name="last-name"
                         id="last-name"
                         autoComplete="family-name"
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="bg-cor mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       />
                     </div>
 
@@ -105,7 +100,7 @@ export default function Dados() {
                         name="email-address"
                         id="email-address"
                         autoComplete="email"
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="bg-cor mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       />
                     </div>
 
@@ -117,7 +112,7 @@ export default function Dados() {
                         type="text"
                         name="phone"
                         id="phone"
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="bg-cor mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       />
                     </div>
 
@@ -130,7 +125,7 @@ export default function Dados() {
                         name="street-address"
                         id="street-address"
                         autoComplete="street-address"
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="bg-cor mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       />
                     </div>
 
@@ -143,7 +138,7 @@ export default function Dados() {
                         name="city"
                         id="city"
                         autoComplete="address-level2"
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="bg-cor mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       />
                     </div>
 
@@ -156,7 +151,7 @@ export default function Dados() {
                         name="region"
                         id="region"
                         autoComplete="address-level1"
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="bg-cor mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       />
                     </div>
 
@@ -168,7 +163,7 @@ export default function Dados() {
                         type="text"
                         name="country"
                         id="country"
-                        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                        className="bg-cor mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       />
                     </div>
 
@@ -189,11 +184,7 @@ export default function Dados() {
         </div>
       </div>
 
-      <div className="hidden sm:block" aria-hidden="true">
-        <div className="py-5">
-          <div className="border-t border-gray-200" />
-        </div>
-      </div>
+      
 
 
 

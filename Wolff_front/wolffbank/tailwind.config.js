@@ -1,5 +1,6 @@
 module.exports = {
   content: [
+    "./node_modules/flowbite-react/**/*.js",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     './src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js',
@@ -15,9 +16,11 @@ module.exports = {
       preto: '#212529',
       transparente:'#ffffff00',
       loginCor:'#f1f5f9',
+      cor: '#ced4da',
+      fundodados: '#e9ecef'
     }
   },
   plugins: [
-    //require('tw-elements/dist/plugin')
+    require("flowbite/plugin")
   ],
 }

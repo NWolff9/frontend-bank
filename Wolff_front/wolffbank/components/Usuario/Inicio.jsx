@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useRouter } from 'next/router'
 
 const navigation = [
-  { name: 'Wolffs Bank', href: '/', current: false },
+  { name: 'Wolffs Bank', href: '/logado', current: false },
   { name: 'Saldo: ???', current: false },
   
 ]
@@ -91,6 +91,17 @@ export default function Inicio() {
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 cursor-pointer')}
                           >
                             Perfil
+                          </a>
+                        )}
+                      </Menu.Item>
+
+                      <Menu.Item>
+                        {({ active }) => (
+                          <a
+                            onClick={() => router.push("/")}
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 cursor-pointer')}
+                          >
+                            Sair
                           </a>
                         )}
                       </Menu.Item>
