@@ -54,12 +54,12 @@ const Login = () =>{
                 
   
                 <div className="text-loginCor">
-                  <a className="font-medium text-indigo-600 hover:text-indigo-500">
+                  <a className="font-medium">
                     Esqueceu a senha?
                   </a>
                 </div>
                 <div className="text-loginCor">
-                  <a onClick={() => router.push("/cadastro")}  className="cursor-pointer font-medium text-indigo-600 hover:text-indigo-500">
+                  <a onClick={() => router.push("/cadastro")}  className="cursor-pointer font-medium">
                     Criar uma conta
                   </a>
                 </div>
@@ -68,7 +68,7 @@ const Login = () =>{
               <div>
                 <button
                   type="submit"
-                  className="group relative flex w-full justify-center rounded-md border border-loginCor bg-indigo-600 py-2 px-4 text-sm font-medium text-loginCor focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                  className="group relative flex w-full justify-center rounded-md border border-loginCor py-2 px-4 text-sm font-medium text-loginCor focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                     <LockClosedIcon className="h-5 w-5 text-loginCor" aria-hidden="true" />

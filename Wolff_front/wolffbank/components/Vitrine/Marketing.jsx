@@ -23,8 +23,8 @@ const Marketing = () =>{
             </p>
         </div>
 
-        <div className="grid grid-cols-2 grid-rows-1 gap-4 sm:gap-6 lg:gap-8 ">
-             <img src="celular.png" className="rounded-lg bg-gray-100 w-15" />
+        <div>
+             <img src="celular.png"/>
         </div>
 
         </div>
