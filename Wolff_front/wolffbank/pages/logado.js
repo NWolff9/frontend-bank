@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Inicio from '../components/Usuario/Inicio'
-import Admin from '../components/Usuario/Admin'
+
 
 export default function Home(){
     return(
@@ -13,7 +13,7 @@ export default function Home(){
 
       <Inicio/>
 
-      <Admin/>
+  
     
 
       

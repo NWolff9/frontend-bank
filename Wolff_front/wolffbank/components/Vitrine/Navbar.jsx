@@ -50,7 +50,7 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-footercor text-footercor' : 'text-footercor hover:bg-footercor hover:text-footercor',
+                          item.current ? 'bg-footercor text-footercor' : 'text-footercor hover:bg-cinzaFundo hover:text-footercor',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
