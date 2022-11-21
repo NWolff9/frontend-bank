@@ -64,7 +64,7 @@ export default function Inicio() {
                       setOpen(true);
                     }}
                   >
-                    teste
+                    Gerenciamento
                   </button>
 
                   {/* Profile dropdown */}

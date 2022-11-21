@@ -1,7 +1,6 @@
 import Head from "next/head";
+import Transferencia from '../components/Usuario/Transferencia'
 import Inicio from '../components/Usuario/Inicio'
-import Funcionalidades from '../components/Usuario/Funcionalidades'
-
 
 export default function Home(){
     return(
@@ -14,8 +13,8 @@ export default function Home(){
 
       <Inicio/>
 
-      <Funcionalidades/>
-            
+      <Transferencia/>
+
       </div>
     )
 }

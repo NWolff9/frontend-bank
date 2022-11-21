@@ -15,9 +15,6 @@ export default function Home(){
       
       <Dados/>
 
-      
-
-      
       </div>
     )
 }
