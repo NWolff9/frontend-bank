@@ -2,7 +2,7 @@ import { Fragment, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useRouter } from "next/router";
-import Admin from "../Usuario/Admin";
+
 
 const navigation = [
   { name: "Wolffs Bank", href: "/logado", current: false },
@@ -59,14 +59,7 @@ export default function Inicio() {
                   </div>
                 </div>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                  <button
-                    onClick={() => {
-                      setOpen(true);
-                    }}
-                  >
-                    Gerenciamento
-                  </button>
-
+            
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative ml-3">
                     <div>
@@ -145,7 +138,7 @@ export default function Inicio() {
           </>
         )}
       </Disclosure>
-      <Admin disp={open}/>
+      
     </>
   );
 }

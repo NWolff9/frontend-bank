@@ -3,7 +3,7 @@ const callouts = [
       name: 'Transferências',
       description: 'Realize suas transferências',
       imageSrc: 'https://www.capitecbank.co.za/globalassets/approved-images/transact/sendcash---desktop2x-compressed.jpg?w=1200&h=630',
-      href: '#',
+      href: '/transferencia',
     },
 
     {
@@ -44,7 +44,7 @@ const callouts = [
     
   ]
   
-  export default function Finalidades() {
+  export default function Funcionalidades() {
     return (
       <div className="bg-gray-100">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

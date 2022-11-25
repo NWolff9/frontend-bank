@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Transferencia from '../components/Usuario/Transferencia'
 import Inicio from '../components/Usuario/Inicio'
+import Transf from '../components/Usuario/Tranf'
 
 export default function Home(){
     return(
@@ -13,8 +13,9 @@ export default function Home(){
 
       <Inicio/>
 
-      <Transferencia/>
+      <Transf/>
 
+     
       </div>
     )
 }
