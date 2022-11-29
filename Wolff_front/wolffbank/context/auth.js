@@ -43,8 +43,9 @@ export const AuthProvider = ({children}) => {
     setUser(loggedUser);
 
     
-    router.push("/logado")}
-  };
+    router.push("/logado")
+  }
+  
 
   const logout = () => {
 
@@ -77,5 +78,4 @@ export const AuthProvider = ({children}) => {
       {children}  
     </AuthContext.Provider>
   );
-
-}
+};

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:8000/",
+  baseURL: "http://apiwolff.azurewebsites.net/",
 });
 
 export const createSession = async(id,nome,sobrenome,celular,endereco,email,cpf,foto) => {
